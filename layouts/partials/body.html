@@ -29,7 +29,7 @@
             {{ with .Site.Params.contact.ello }}<a class="icon" href="https://ello.co/{{ . }}" target="_blank">
               <i class="fab fa-ello" aria-hidden="true"></i>
             </a>{{ end }}
-            {{ with .Site.Params.contact.pgp }}<a class="icon" href="{{ . }}" target="_blank">
+            {{ with .Site.Params.contact.pgp }}<a class="icon" href="{{ . }}" target="_blank" download>
               <i class="fas fa-key" aria-hidden="true"></i>
             </a>{{ end }}
           </h3>
